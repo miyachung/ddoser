@@ -23,7 +23,7 @@
 */
 error_reporting(E_ALL ^ E_NOTICE);
 
-$options     = getopt("h:p:t::",["host:","ports:","time:"]);
+$options     = getopt("h:p:t:",["host:","ports:","time:"]);
 
 $arguments   = options_prepare($options);
 
